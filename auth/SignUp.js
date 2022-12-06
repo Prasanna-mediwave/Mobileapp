@@ -19,13 +19,13 @@ export default function SignUp({navigation}) {
               globalStyle.commonArea,
             ]}>
             <View style={styles.inputText}>
-              <View style={styles.icons}></View>
+              <View style={styles.icons} />
               <View>
                 <TextInput placeholder="Email" keyboardType="email-address" />
               </View>
             </View>
             <View style={styles.inputText}>
-              <View style={styles.icons}></View>
+              <View style={styles.icons} />
               <View>
                 <TextInput placeholder="Password" secureTextEntry={true} />
               </View>
